@@ -1,0 +1,1270 @@
+---
+title: "BIOINSUMOS COMO ESTRATÉGIA SUSTENTÁVEL NA PRODUÇÃO DE ARROZ E FEIJÃO: IMPLICAÇÕES PARA A SAÚDE E NUTRIÇÃO PLANETÁRIA"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: true
+    toc_depth: 2
+    number_sections: true
+    theme: paper
+    highlight: tango
+    self_contained: true
+    df_print: paged
+  pdf_document:
+    latex_engine: xelatex
+    toc: true
+    toc_depth: 2
+    number_sections: true
+    fig_caption: true
+    keep_tex: false
+  word_document:
+    toc: true
+    toc_depth: 2
+lang: "pt-BR"
+geometry: margin=2.5cm
+fontsize: 11pt
+mainfont: Times New Roman
+sansfont: Arial
+monofont: Menlo
+header-includes:
+- \usepackage{booktabs}
+- \usepackage{longtable}
+- \usepackage{array}
+- \usepackage{float}
+- \usepackage{caption}
+- \captionsetup{font=small,labelfont=bf}
+- \renewcommand{\figurename}{Figura}
+- \renewcommand{\tablename}{Tabela}
+---
+
+<style>
+body { background: #fff; color: #1a1a1a; font-family: "Times New Roman", Georgia, serif; font-size: 15.5px; line-height: 1.6; }
+.main-container { max-width: 1050px; padding: 20px 42px 60px; }
+h1, h2, h3, h4 { color: #111111; font-family: "Times New Roman", Georgia, serif; font-weight: 700; }
+h1 { border-bottom: 1.5px solid #111111; padding-bottom: 8px; font-size: 1.6em; }
+h1.title { border-bottom: none; text-align: center; font-size: 1.45em; }
+h2 { margin-top: 2em; border-bottom: 0.75px solid #B0B0B0; padding-bottom: 5px; font-size: 1.25em; }
+h3 { font-size: 1.05em; margin-top: 1.6em; }
+p { text-align: justify; }
+.table-responsive, .kable-table { overflow-x: auto; margin: 1.2em 0 0.4em; }
+table { width: 100%; font-size: 0.9em; font-family: "Times New Roman", Georgia, serif; border-collapse: collapse; }
+table > thead > tr > th { background: #FFFFFF; color: #111111; border-top: 1.5px solid #111111; border-bottom: 1px solid #111111; vertical-align: middle; font-weight: 700; }
+table > tbody > tr > td { border-color: #E5E5E5; vertical-align: middle; border-left: none; border-right: none; }
+table > tbody > tr:last-child > td { border-bottom: 1.5px solid #111111; }
+caption { caption-side: top; color: #111111; font-weight: 700; text-align: left; padding: 6px 0; font-size: 0.98em; }
+.nota-tabela { font-size: 0.86em; color: #333333; margin: 0.2em 0 1.6em; text-align: left; }
+.figure { text-align: center; margin: 1.2em auto 0.3em; }
+.figure img { max-width: 100%; height: auto; }
+.legenda-figura { color: #1a1a1a; font-size: 0.93em; text-align: left; margin: 0.5em auto 2em; max-width: 95%; }
+@media (max-width: 768px) { .main-container { padding: 12px 18px 36px; } }
+
+.author-block { text-align: center; margin: -0.25em auto 2.0em; max-width: 950px; line-height: 1.45; }
+.author-names { font-size: 1.02em; margin-bottom: 0.65em; }
+.author-affiliations { font-size: 0.94em; color: #333; margin-top: 0.2em; }
+.orcid-link { text-decoration: none !important; display: inline-flex; vertical-align: middle; margin-left: 0.15em; }
+.orcid-icon { display: inline-flex; align-items: center; justify-content: center; width: 1.28em; height: 1.28em; border-radius: 50%; background: #A6CE39; color: #fff; font-family: Arial, sans-serif; font-size: 0.72em; font-weight: 700; letter-spacing: -0.04em; line-height: 1; }
+.download-code-wrap { text-align: center; margin: 1.4em 0 2.0em; }
+.download-code-btn { display: inline-block; padding: 8px 16px; border: 1px solid #9DB9A2; border-radius: 8px; background: #F6FAF6; color: #315C3A !important; text-decoration: none !important; font-family: Arial, sans-serif; font-size: 0.90em; font-weight: 500; box-shadow: 0 1px 3px rgba(0,0,0,0.04); transition: all 0.2s ease; }
+.download-code-btn:hover { background: #EDF5EE; border-color: #7FA187; color: #234A2B !important; box-shadow: 0 2px 6px rgba(0,0,0,0.06); }
+.base-preview { overflow: auto; max-height: 430px; max-width: 100%; margin: 1em 0 1.5em; border: 1px solid #E2E8E3; border-radius: 8px; background: #FFFFFF; padding: 6px; }
+.base-preview table { min-width: max-content; margin-bottom: 0 !important; }
+.base-preview thead th { position: sticky; top: 0; background: #F7F9F7; z-index: 2; }
+</style>
+
+<div class="author-block">
+<div class="author-names">
+<sup>1</sup>Wilhan Valasco dos Santos <a class="orcid-link" href="https://orcid.org/0000-0002-6533-2407" target="_blank" rel="noopener" aria-label="ORCID de Wilhan Valasco dos Santos"><span class="orcid-icon">iD</span></a>,
+<sup>2</sup>Ana Paula Silva Siqueira,
+<sup>2</sup>Rita de Cássia Nogueira de Moura <a class="orcid-link" href="https://orcid.org/0009-0003-5508-0829" target="_blank" rel="noopener" aria-label="ORCID de Rita de Cássia Nogueira de Moura"><span class="orcid-icon">iD</span></a>,
+<sup>2</sup>Maria Luiza Ferreira de Sousa e Silva <a class="orcid-link" href="https://orcid.org/0009-0009-3474-5530" target="_blank" rel="noopener" aria-label="ORCID de Maria Luiza Ferreira de Sousa e Silva"><span class="orcid-icon">iD</span></a>
+</div>
+<div class="author-affiliations"><sup>1</sup>Instituto Federal de Educação, Ciência e Tecnologia Goiano – Campus Rio Verde</div>
+<div class="author-affiliations"><sup>2</sup>Instituto Federal de Educação, Ciência e Tecnologia Goiano – Campus Rio Urutaí</div>
+</div>
+
+```{r configuracao, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  fig.align = "center",
+  out.width = "100%",
+  dpi = 300,
+  dev = "png",
+  fig.bg = "transparent",
+  dev.args = list(png = list(bg = "transparent")),
+  fig.show = "asis"
+)
+
+options(
+  scipen = 999,
+  dplyr.summarise.inform = FALSE,
+  knitr.kable.NA = ""
+)
+
+set.seed(123)
+```
+
+```{r pacotes-e-funcoes, include=FALSE}
+pacotes <- c(
+  "dplyr", "tidyr", "purrr", "ggplot2", "ggrepel",
+  "knitr", "kableExtra", "stringr", "stringi", "tibble", "patchwork",
+  "countrycode", "sf", "rnaturalearth", "rnaturalearthdata"
+)
+
+pacotes_ausentes <- pacotes[
+  !vapply(pacotes, requireNamespace, logical(1), quietly = TRUE)
+]
+
+if (length(pacotes_ausentes) > 0) {
+  install.packages(
+    pacotes_ausentes,
+    dependencies = TRUE,
+    repos = c(CRAN = "https://cloud.r-project.org")
+  )
+}
+
+suppressPackageStartupMessages({
+  library(dplyr)
+  library(tidyr)
+  library(purrr)
+  library(ggplot2)
+  library(ggrepel)
+  library(knitr)
+  library(kableExtra)
+  library(stringr)
+  library(stringi)
+  library(tibble)
+  library(patchwork)
+  library(countrycode)
+  library(sf)
+  library(rnaturalearth)
+})
+
+normalizar_texto <- function(x) {
+  x <- as.character(x)
+  x <- stringr::str_replace_all(x, "[[:space:]\\u00A0]+", " ")
+  x <- stringr::str_trim(x)
+  x_ascii <- stringi::stri_trans_general(x, "Latin-ASCII")
+  tolower(x_ascii)
+}
+
+converter_numerico <- function(x) {
+  if (is.numeric(x)) return(as.numeric(x))
+  x <- as.character(x)
+  x <- stringr::str_replace_all(x, "\\u00A0", " ")
+  x <- stringr::str_trim(x)
+  x[x %in% c("", "-", "--", "NA", "N/A", "na", "n/a")] <- NA_character_
+
+  converter_um <- function(valor) {
+    if (is.na(valor)) return(NA_real_)
+    valor <- gsub("[^0-9,.-]", "", valor)
+    if (!nzchar(valor) || valor %in% c("-", ".", ",")) return(NA_real_)
+    tem_virgula <- grepl(",", valor, fixed = TRUE)
+    tem_ponto <- grepl(".", valor, fixed = TRUE)
+    if (tem_virgula && tem_ponto) {
+      valor <- gsub(".", "", valor, fixed = TRUE)
+      valor <- sub(",", ".", valor, fixed = TRUE)
+    } else if (tem_virgula) {
+      valor <- sub(",", ".", valor, fixed = TRUE)
+    }
+    suppressWarnings(as.numeric(valor))
+  }
+  vapply(x, converter_um, numeric(1))
+}
+
+numero_estudos <- function(x) {
+  x <- as.character(x)
+  x <- x[!is.na(x) & nzchar(stringr::str_trim(x))]
+  dplyr::n_distinct(x)
+}
+
+formatar_numero <- function(x, casas = 2) {
+  ifelse(
+    is.na(x), NA_character_,
+    formatC(x, format = "f", digits = casas, decimal.mark = ",", big.mark = ".")
+  )
+}
+
+# --- Contadores globais de tabelas e figuras (numeração sequencial única) ---
+contador_tabela <- 0
+contador_figura <- 0
+
+proxima_tabela_titulo <- function(titulo) {
+  contador_tabela <<- contador_tabela + 1
+  paste0("Tabela ", contador_tabela, ". ", titulo)
+}
+
+imprimir_tabela <- function(dados_tabela, titulo, nota = NULL, tamanho_fonte = 8.5) {
+  legenda <- proxima_tabela_titulo(titulo)
+  formato <- if (knitr::is_latex_output()) "latex" else if (knitr::is_html_output()) "html" else "pandoc"
+
+  tabela <- knitr::kable(
+    dados_tabela, format = formato, booktabs = knitr::is_latex_output(),
+    longtable = knitr::is_latex_output(), caption = legenda, align = "l", na = ""
+  )
+
+  if (knitr::is_latex_output()) {
+    tabela <- kableExtra::kable_styling(
+      tabela, latex_options = c("repeat_header", "scale_down"),
+      font_size = tamanho_fonte, position = "center", full_width = FALSE
+    )
+  } else if (knitr::is_html_output()) {
+    tabela <- kableExtra::kable_styling(
+      tabela, bootstrap_options = c("condensed", "responsive"),
+      font_size = tamanho_fonte, full_width = TRUE
+    )
+  }
+
+  print(tabela)
+  if (!is.null(nota)) {
+    cat(paste0("<div class=\"nota-tabela\">", nota, "</div>\n\n"))
+  }
+  invisible(contador_tabela)
+}
+
+imprimir_figura <- function(grafico, legenda_texto) {
+  contador_figura <<- contador_figura + 1
+  print(grafico)
+  cat(paste0(
+    "\n\n<div class=\"legenda-figura\"><strong>Figura ", contador_figura, ".</strong> ",
+    legenda_texto, "</div>\n\n"
+  ))
+  invisible(contador_figura)
+}
+
+# --- Exportação em alta resolução (PNG >= 600 dpi, fundo transparente) ------
+pasta_figuras <- "figuras_alta_resolucao"
+if (!dir.exists(pasta_figuras)) dir.create(pasta_figuras, recursive = TRUE)
+
+sanitizar_nome_arquivo <- function(x) {
+  x <- normalizar_texto(x)
+  x <- stringr::str_replace_all(x, "[^a-z0-9]+", "_")
+  stringr::str_replace_all(x, "^_+|_+$", "")
+}
+
+salvar_grafico <- function(grafico, nome, largura = 9, altura = 6, dpi_save = 600) {
+  caminho <- file.path(pasta_figuras, paste0(nome, ".png"))
+  tryCatch(
+    {
+      if (requireNamespace("ragg", quietly = TRUE)) {
+        ragg::agg_png(filename = caminho, width = largura, height = altura, units = "in", res = dpi_save, background = "transparent")
+      } else if (isTRUE(base::capabilities("cairo"))) {
+        grDevices::png(filename = caminho, width = largura, height = altura, units = "in", res = dpi_save, bg = "transparent", type = "cairo")
+      } else {
+        grDevices::png(filename = caminho, width = largura, height = altura, units = "in", res = dpi_save, bg = "transparent")
+      }
+      print(grafico)
+      grDevices::dev.off()
+    },
+    error = function(e) {
+      if (!is.null(grDevices::dev.list())) grDevices::dev.off()
+      message("Não foi possível salvar '", caminho, "': ", conditionMessage(e))
+    }
+  )
+  invisible(caminho)
+}
+
+tema_academico <- function() {
+  ggplot2::theme_bw(base_family = "Times New Roman", base_size = 11) +
+    ggplot2::theme(
+      panel.border = ggplot2::element_rect(colour = "#263238", fill = NA, linewidth = 0.35),
+      axis.line = ggplot2::element_line(colour = "#263238", linewidth = 0.3),
+      axis.ticks = ggplot2::element_line(colour = "#263238", linewidth = 0.3),
+      panel.grid.major.y = ggplot2::element_line(colour = "#E6E9ED", linewidth = 0.25),
+      panel.grid.major.x = ggplot2::element_blank(),
+      panel.grid.minor = ggplot2::element_blank(),
+      plot.title = ggplot2::element_blank(),
+      axis.title = ggplot2::element_text(colour = "#263238"),
+      axis.text = ggplot2::element_text(colour = "#263238"),
+      axis.text.x = ggplot2::element_text(angle = 0, hjust = 0.5),
+      legend.position = "none",
+      panel.background = ggplot2::element_rect(fill = "transparent", colour = NA),
+      plot.background = ggplot2::element_rect(fill = "transparent", colour = NA),
+      plot.margin = ggplot2::margin(8, 20, 8, 8)
+    )
+}
+
+paleta_classes <- c(
+  "Controle" = "#4D4D4D",
+  "Bactéria" = "#2C7FB8",
+  "Fungo" = "#7A5195",
+  "Fungo + Bactéria" = "#3A8F78"
+)
+```
+
+## *2.7 Análise exploratória e modelagem estatística* {.unnumbered}
+
+```{r importar-classificar}
+arquivo_csv <- "Base_Geral_tratada.csv"
+if (!file.exists(arquivo_csv)) stop(paste0("Arquivo não encontrado: ", arquivo_csv, "."), call. = FALSE)
+
+dados <- read.csv2(arquivo_csv, stringsAsFactors = FALSE, check.names = FALSE, fileEncoding = "UTF-8-BOM")
+
+# Exclusão do estudo 67, correspondente ao trabalho de 2015 retirado da revisão.
+# O preenchimento temporário para baixo garante a remoção de todas as linhas do
+# estudo caso o ID apareça apenas na primeira linha de um bloco de tratamentos.
+if (!("ID" %in% names(dados))) stop("A coluna ID não foi encontrada na base.", call. = FALSE)
+dados <- dados %>%
+  mutate(.ID_exclusao = stringr::str_trim(as.character(ID))) %>%
+  tidyr::fill(.ID_exclusao, .direction = "down") %>%
+  filter(.ID_exclusao != "67") %>%
+  select(-.ID_exclusao)
+
+if ("Germinacao (%)" %in% names(dados) && !("Germinação (%)" %in% names(dados))) {
+  names(dados)[names(dados) == "Germinacao (%)"] <- "Germinação (%)"
+}
+
+# Harmonização de grafias usuais das três variáveis complementares.
+normalizar_nome <- function(x) {
+  x %>%
+    stringi::stri_trans_general("Latin-ASCII") %>%
+    stringr::str_to_lower() %>%
+    stringr::str_replace_all("[^a-z0-9]+", " ") %>%
+    stringr::str_squish()
+}
+
+harmonizar_variavel <- function(dados, nome_canonico, padrao) {
+  candidatos <- names(dados)[stringr::str_detect(normalizar_nome(names(dados)), padrao)]
+  if (!(nome_canonico %in% names(dados)) && length(candidatos) > 0) {
+    names(dados)[match(candidatos[1], names(dados))] <- nome_canonico
+  }
+  if (!(nome_canonico %in% names(dados))) dados[[nome_canonico]] <- NA_real_
+  dados
+}
+
+dados <- harmonizar_variavel(dados, "Controle de doença (%)", "controle de doenca")
+dados <- harmonizar_variavel(dados, "Carbono orgânico (g kg⁻¹)", "carbono organico")
+dados <- harmonizar_variavel(dados, "Redução de fertilizantes (%)", "reducao de fertilizante")
+
+variaveis <- c(
+  "Germinação (%)", "Altura de planta (cm)", "Volume radicular (cm³)",
+  "Comprimento de raiz (cm)", "Massa fresca da parte aérea (g planta⁻¹)",
+  "Massa seca da parte aérea (g planta⁻¹)", "Massa fresca de raízes (g planta⁻¹)",
+  "Massa seca de raízes (g planta⁻¹)", "Número de panículas (planta⁻¹)",
+  "Número de vagens (planta⁻¹)", "Número de perfilhos (planta⁻¹)",
+  "Peso de 100 grãos (g)", "Produtividade (kg ha⁻¹)", "Controle de doença (%)",
+  "Carbono orgânico (g kg⁻¹)", "Redução de fertilizantes (%)"
+)
+
+siglas <- c(
+  "Germinação (%)" = "GER", "Altura de planta (cm)" = "AP", "Volume radicular (cm³)" = "VR",
+  "Comprimento de raiz (cm)" = "CR", "Massa fresca da parte aérea (g planta⁻¹)" = "MFPA",
+  "Massa seca da parte aérea (g planta⁻¹)" = "MSPA", "Massa fresca de raízes (g planta⁻¹)" = "MFR",
+  "Massa seca de raízes (g planta⁻¹)" = "MSR", "Número de panículas (planta⁻¹)" = "NP",
+  "Número de vagens (planta⁻¹)" = "NV", "Número de perfilhos (planta⁻¹)" = "PERF",
+  "Peso de 100 grãos (g)" = "P100", "Produtividade (kg ha⁻¹)" = "PROD",
+  "Controle de doença (%)" = "CD", "Carbono orgânico (g kg⁻¹)" = "CO",
+  "Redução de fertilizantes (%)" = "RF"
+)
+
+variaveis_presentes <- intersect(variaveis, names(dados))
+for (variavel in variaveis_presentes) {
+  dados[[variavel]] <- converter_numerico(dados[[variavel]])
+}
+
+# Exclusão pontual definida pelo autor: valor 24 de carbono orgânico no
+# nível Controle. O valor é convertido em ausente para não participar dos
+# gráficos, das estatísticas descritivas, da PCA ou do forest plot.
+dados <- dados %>%
+  mutate(
+    `Carbono orgânico (g kg⁻¹)` = dplyr::if_else(
+      stringr::str_trim(Classe) == "Controle" &
+        dplyr::near(`Carbono orgânico (g kg⁻¹)`, 24),
+      NA_real_,
+      `Carbono orgânico (g kg⁻¹)`
+    )
+  )
+
+# Cultura e classe já vêm classificadas manualmente pelo autor nas colunas
+# `Cultura Adj` e `Classe` da base tratada; apenas espaços extras são
+# removidos, sem qualquer reclassificação automática por palavra-chave.
+dados <- dados %>%
+  mutate(
+    `Cultura Adj` = stringr::str_trim(`Cultura Adj`),
+    Classe = stringr::str_trim(Classe)
+  )
+
+ordem_classes_geral <- c("Controle", "Bactéria", "Fungo", "Fungo + Bactéria")
+
+# Feijão: escopo restrito a Controle e Bactéria (decisão do autor, ver texto).
+# Variáveis do feijão: Peso de 100 grãos, Massa seca de raízes, Germinação e
+# Comprimento de raiz não são analisadas nesta cultura.
+variaveis_feijao <- c(
+  "Altura de planta (cm)", "Massa fresca da parte aérea (g planta⁻¹)",
+  "Massa seca da parte aérea (g planta⁻¹)", "Massa fresca de raízes (g planta⁻¹)",
+  "Número de vagens (planta⁻¹)", "Produtividade (kg ha⁻¹)"
+)
+classes_feijao <- c("Controle", "Bactéria")
+
+# Arroz: Volume radicular, Massa fresca da parte aérea, Massa fresca de
+# raízes, Massa seca da parte aérea, Massa seca de raízes, Número de vagens
+# e Peso de 100 grãos não são analisados nesta cultura (decisão do autor, ver
+# texto). Número de perfilhos substitui Peso de 100 grãos, comparando
+# Controle, Bactéria, Fungo e Fungo mais Bactéria.
+variaveis_arroz <- c(
+  "Germinação (%)", "Altura de planta (cm)", "Comprimento de raiz (cm)",
+  "Número de perfilhos (planta⁻¹)", "Número de panículas (planta⁻¹)",
+  "Produtividade (kg ha⁻¹)"
+)
+
+variaveis_complementares_arroz <- c(
+  "Controle de doença (%)", "Carbono orgânico (g kg⁻¹)", "Redução de fertilizantes (%)"
+)
+variaveis_pca_arroz <- c(variaveis_arroz, variaveis_complementares_arroz)
+
+# Seleção exclusiva da PCA. Carbono orgânico permanece nas análises descritivas
+# e na razão de resposta, mas é retirado da PCA do arroz devido à baixa
+# disponibilidade e à elevada dependência de imputação.
+variaveis_pca_arroz_selecionadas <- setdiff(
+  variaveis_pca_arroz,
+  "Carbono orgânico (g kg⁻¹)"
+)
+classes_pca_arroz <- c("Controle", "Bactéria")
+
+dados_feijao_bruto <- dados %>% filter(`Cultura Adj` == "Feijão", Classe %in% classes_feijao)
+dados_arroz_bruto  <- dados %>% filter(`Cultura Adj` == "Arroz", Classe %in% ordem_classes_geral)
+
+n_linhas_total   <- nrow(dados)
+n_estudos_total  <- numero_estudos(dados$ID)
+n_feijao_classif <- sum(dados$`Cultura Adj` == "Feijão", na.rm = TRUE)
+n_arroz_classif  <- sum(dados$`Cultura Adj` == "Arroz", na.rm = TRUE)
+```
+
+Conduziu-se, neste estudo, uma síntese descritiva de dados de literatura sobre o uso de bioinsumos microbianos (bactérias, fungos e a combinação fungo mais bactéria) em feijão (*Phaseolus vulgaris*) e arroz (*Oryza sativa*), comparados a um controle sem inoculação. A unidade de observação é o registro experimental individual, identificado por cada estudo/artigo, e cada estudo pode contribuir com várias observações para a mesma classe e variável, de modo que o número de observações não equivale ao número de unidades independentes; por isso, toda tabela informa observações e estudos distintos, sendo o segundo o indicador de robustez de cada comparação.
+
+A base utilizada (3.404 linhas, 76 estudos) é a versão tratada da revisão de literatura, na qual cultura e classe de cada registro foram atribuídas por curadoria manual do autor, conforme a Tabela 1, e não por correspondência automática de palavras-chave. Essa curadoria distingue bactéria, fungo, fungo mais bactéria e controle. Outras categorias presentes na base, como extratos vegetais, derivados biológicos ou orgânicos, fertilizantes minerais, comparadores químicos e condições experimentais diversas, não integram este estudo. Um pequeno número de valores exatamente iguais a zero foi identificado em algumas variáveis; não havia evidência documental de que representassem lacuna de preenchimento e, por isso, foram mantidos como observações válidas, sem conversão automática para dado ausente.
+
+```{r tabela-amostra, results='asis'}
+caracterizar <- function(dados_cultura, ordem_classes) {
+  dados_cultura %>%
+    mutate(Classe = factor(Classe, levels = ordem_classes)) %>%
+    group_by(Classe, .drop = FALSE) %>%
+    summarise(`Número de observações` = n(), `Número de estudos` = numero_estudos(ID), .groups = "drop") %>%
+    filter(`Número de observações` > 0)
+}
+
+tabela_amostra <- bind_rows(
+  caracterizar(dados_feijao_bruto, classes_feijao) %>% mutate(Cultura = "Feijão", .before = 1),
+  caracterizar(dados_arroz_bruto, ordem_classes_geral) %>% mutate(Cultura = "Arroz", .before = 1)
+)
+
+imprimir_tabela(
+  tabela_amostra,
+  "Composição amostral por cultura e classe, antes da aplicação dos critérios de disponibilidade por variável.",
+  nota = paste0(
+    "Número de observações: registros experimentais individuais. Número de estudos: contagem de códigos ",
+    "de identificação (ID) distintos. Classes sem nenhuma observação válida na cultura correspondente não ",
+    "são apresentadas."
+  )
+)
+```
+
+As variáveis analisadas cobrem emergência, crescimento vegetativo e desempenho reprodutivo ou produtivo, e o conjunto usado em cada cultura foi definido pela disponibilidade real de dados (Tabela 2), não por critério fixo igual às duas espécies.
+
+```{r tabela-escopo-variaveis, results='asis'}
+construir_escopo_lista <- function(dados_cultura, variaveis_cultura, ordem_classes) {
+  purrr::map(variaveis_cultura, function(v) {
+    d <- dados_cultura %>% filter(!is.na(.data[[v]]))
+    disponiveis <- d %>% count(Classe) %>% filter(n > 0) %>% pull(Classe)
+    intersect(ordem_classes, disponiveis)
+  }) %>% setNames(variaveis_cultura)
+}
+
+var_classes_feijao_final <- construir_escopo_lista(dados_feijao_bruto, variaveis_feijao, classes_feijao)
+var_classes_arroz_final  <- construir_escopo_lista(dados_arroz_bruto, variaveis_arroz, ordem_classes_geral)
+
+# Número de perfilhos substitui Peso de 100 grãos no arroz e mantém,
+# explicitamente, os quatro níveis definidos para essa comparação.
+var_classes_arroz_final[["Número de perfilhos (planta⁻¹)"]] <- ordem_classes_geral
+
+# Ajustes manuais de escopo (decisão do autor), no arroz: Fungo removido de
+# Produtividade.
+var_classes_arroz_final[["Produtividade (kg ha⁻¹)"]] <-
+  setdiff(var_classes_arroz_final[["Produtividade (kg ha⁻¹)"]], "Fungo")
+
+# Variáveis complementares: matriz 1 x 3 fora da matriz agronômica principal.
+var_classes_complementares_arroz <- list(
+  "Controle de doença (%)" = c("Controle", "Bactéria", "Fungo + Bactéria"),
+  "Carbono orgânico (g kg⁻¹)" = c("Controle", "Bactéria", "Fungo + Bactéria"),
+  "Redução de fertilizantes (%)" = c("Controle", "Bactéria", "Fungo")
+)
+
+formatar_escopo_tabela <- function(dados_cultura, lista_escopo) {
+  purrr::imap_dfr(lista_escopo, function(classes_v, v) {
+    d <- dados_cultura %>% filter(!is.na(.data[[v]]), Classe %in% classes_v)
+    tibble::tibble(
+      Variável = v,
+      `Nº observações` = nrow(d),
+      `Nº estudos` = numero_estudos(d$ID)
+    )
+  })
+}
+
+escopo_feijao <- formatar_escopo_tabela(dados_feijao_bruto, var_classes_feijao_final) %>%
+  mutate(Cultura = "Feijão", .before = 1)
+
+# A Tabela 2 reúne o escopo agronômico principal e as três variáveis
+# complementares analisadas no arroz.
+var_classes_arroz_tabela <- c(
+  var_classes_arroz_final,
+  var_classes_complementares_arroz
+)
+
+escopo_arroz <- formatar_escopo_tabela(dados_arroz_bruto, var_classes_arroz_tabela) %>%
+  mutate(Cultura = "Arroz", .before = 1)
+
+imprimir_tabela(
+  bind_rows(escopo_feijao, escopo_arroz),
+  "Número total de observações e de estudos disponíveis para cada variável, por cultura."
+)
+```
+
+Valores numéricos foram convertidos preservando separador decimal e unidade originais, e células vazias foram tratadas como dado ausente. Calcularam-se, para cada combinação de cultura, classe e variável, número de observações e de estudos, média, desvio-padrão, mediana, quartis e amplitude, exigindo ao menos duas observações para o desvio-padrão; combinações sem observação válida não aparecem nas tabelas. Como muitas classes reúnem poucos estudos com várias observações cada, o pressuposto de independência para um intervalo de confiança formal não é atendido nesta base, e a dispersão é descrita por desvio-padrão, mediana e quartis, sem pretensão inferencial. A diferença entre cada classe e o controle foi expressa como variação percentual da mediana de cada classe em relação à mediana do controle, conforme a equação
+
+$$
+\Delta_{\%} = 100 \times \frac{\widetilde{x}_{\mathrm{classe}} - \widetilde{x}_{\mathrm{controle}}}{\widetilde{x}_{\mathrm{controle}}},
+$$
+
+restrita a combinações com ao menos três observações por classe. Em lugar de um intervalo de confiança inferencial, as barras horizontais representam o primeiro e o terceiro quartil (Q1 e Q3) de cada classe comparada, também expressos como variação percentual em relação à mediana do controle; essa faixa descreve a dispersão interna da própria classe, sem qualquer pressuposto distribucional, erro-padrão ou pareamento por estudo. A associação multivariada foi explorada por componentes principais, com padronização e imputação pela mediana restrita a essa análise. Exclusivamente para a PCA do arroz, foram removidas as observações que apresentaram ao menos um valor abaixo de Q1 − 1,5 × IQR ou acima de Q3 + 1,5 × IQR entre as variáveis elegíveis.
+
+Todas as análises estatísticas foram conduzidas no ambiente computacional R, com procedimentos integralmente reprodutíveis (R Core Team, 2026), com os pacotes *`dplyr`* (Wickham et al., 2026) e *`tidyr`* (Wickham, Vaughan e Girlich, 2026). As visualizações gráficas foram elaboradas com o *`ggplot2`* (Wickham, 2016), enquanto a composição das matrizes de figuras foi realizada com o *`patchwork`* (Pedersen, 2025). As tabelas e o relatório dinâmico foram produzidos com o pacote *`knitr`* (Xie, 2025).
+
+# Resultados
+
+## Distribuição geográfica dos estudos
+
+```{r figura-mapa-geral, results='asis', fig.width=13, fig.height=6.7}
+possiveis_colunas_pais <- c("País", "Pais", "Country", "País do estudo", "Pais do estudo")
+coluna_pais <- intersect(possiveis_colunas_pais, names(dados))[1]
+
+if (length(coluna_pais) == 0 || is.na(coluna_pais)) {
+  stop(
+    paste0(
+      "Não foi encontrada uma coluna de país. Nomes procurados: ",
+      paste(possiveis_colunas_pais, collapse = ", "), "."
+    ),
+    call. = FALSE
+  )
+}
+
+correspondencias_paises <- c(
+  "Brasil" = "BRA", "Índia" = "IND", "India" = "IND", "China" = "CHN",
+  "Egito" = "EGY", "Bangladesh" = "BGD", "Coreia do Sul" = "KOR",
+  "Coréia do Sul" = "KOR", "República da Coreia" = "KOR",
+  "Tanzânia" = "TZA", "Tanzania" = "TZA", "Arábia Saudita" = "SAU",
+  "Arabia Saudita" = "SAU", "México" = "MEX", "Mexico" = "MEX",
+  "Itália" = "ITA", "Italia" = "ITA", "Paquistão" = "PAK",
+  "Paquistao" = "PAK", "Tailândia" = "THA", "Tailandia" = "THA",
+  "Alemanha" = "DEU", "Espanha" = "ESP", "Indonésia" = "IDN",
+  "Indonesia" = "IDN", "Irã" = "IRN", "Ira" = "IRN", "Malawi" = "MWI",
+  "Marrocos" = "MAR", "Polônia" = "POL", "Polonia" = "POL",
+  "Portugal" = "PRT", "Quênia" = "KEN", "Quenia" = "KEN",
+  "Estados Unidos" = "USA", "Estados Unidos da América" = "USA", "EUA" = "USA",
+  "United States" = "USA", "United States of America" = "USA",
+  "Reino Unido" = "GBR", "Inglaterra" = "GBR", "United Kingdom" = "GBR",
+  "Países Baixos" = "NLD", "Holanda" = "NLD", "África do Sul" = "ZAF",
+  "Africa do Sul" = "ZAF", "Costa do Marfim" = "CIV",
+  "Emirados Árabes Unidos" = "ARE", "Emirados Arabes Unidos" = "ARE",
+  "Vietnã" = "VNM", "Vietna" = "VNM", "Sri Lanka" = "LKA", "Nepal" = "NPL",
+  "Nigéria" = "NGA", "Nigeria" = "NGA", "Etiópia" = "ETH", "Etiopia" = "ETH",
+  "Colômbia" = "COL", "Colombia" = "COL", "Argentina" = "ARG", "Chile" = "CHL",
+  "Peru" = "PER", "Cuba" = "CUB", "Japão" = "JPN", "Japao" = "JPN",
+  "Austrália" = "AUS", "Australia" = "AUS", "Nova Zelândia" = "NZL",
+  "Nova Zelandia" = "NZL"
+)
+
+dados_paises <- dados %>%
+  transmute(
+    ID_mapa = stringr::str_trim(as.character(ID)),
+    País_original = stringr::str_trim(as.character(.data[[coluna_pais]]))
+  ) %>%
+  tidyr::fill(ID_mapa, .direction = "down") %>%
+  # Exclui integralmente do mapa o estudo ID 67, publicado em 2015.
+  # O filtro ocorre após o preenchimento para remover todas as linhas do estudo.
+  filter(!is.na(ID_mapa), ID_mapa != "", ID_mapa != "67") %>%
+  group_by(ID_mapa) %>%
+  tidyr::fill(País_original, .direction = "downup") %>%
+  ungroup() %>%
+  filter(!is.na(ID_mapa), ID_mapa != "", !is.na(País_original), País_original != "") %>%
+  tidyr::separate_rows(País_original, sep = "\\s*(?:;|,|\\||/|\\be\\b|\\band\\b|&)\\s*") %>%
+  mutate(
+    País_original = stringr::str_squish(País_original),
+    ISO3 = countrycode::countrycode(
+      País_original, origin = "country.name", destination = "iso3c",
+      custom_match = correspondencias_paises, warn = FALSE
+    )
+  ) %>%
+  filter(!is.na(ISO3)) %>%
+  distinct(ID_mapa, ISO3)
+
+mundo <- rnaturalearth::ne_countries(scale = "medium", returnclass = "sf") %>%
+  sf::st_set_crs(4326)
+mundo_mapa <- mundo %>% filter(is.na(continent) | continent != "Antarctica")
+
+mundo_robinson <- sf::st_transform(mundo, crs = "+proj=robin +datum=WGS84")
+centroides <- suppressWarnings(sf::st_point_on_surface(mundo_robinson))
+centroides <- sf::st_transform(centroides, crs = 4326)
+
+coordenadas <- sf::st_coordinates(centroides)
+coluna_iso_mundo <- intersect(c("iso_a3", "adm0_a3", "sov_a3", "gu_a3"), names(centroides))[1]
+if (length(coluna_iso_mundo) == 0 || is.na(coluna_iso_mundo)) {
+  stop("Não foi possível identificar a coluna ISO3 do mapa mundial.", call. = FALSE)
+}
+
+coordenadas_paises <- centroides %>%
+  sf::st_drop_geometry() %>%
+  mutate(
+    ISO3 = as.character(.data[[coluna_iso_mundo]]),
+    longitude = coordenadas[, 1],
+    latitude = coordenadas[, 2]
+  ) %>%
+  select(ISO3, longitude, latitude) %>%
+  filter(!is.na(ISO3), ISO3 != "-99", ISO3 != "") %>%
+  distinct(ISO3, .keep_all = TRUE)
+
+dados_mapa_geral <- dados_paises %>%
+  group_by(ISO3) %>%
+  summarise(`Número de estudos` = n_distinct(ID_mapa), .groups = "drop") %>%
+  left_join(coordenadas_paises, by = "ISO3") %>%
+  filter(!is.na(longitude), !is.na(latitude))
+
+mapa_geral <- ggplot() +
+  geom_sf(data = mundo_mapa, fill = "#F2F2F2", color = "#8C8C8C", linewidth = 0.25) +
+  geom_point(
+    data = dados_mapa_geral,
+    aes(x = longitude, y = latitude, size = `Número de estudos`),
+    shape = 21, fill = "#238B45", color = "#145A32", stroke = 0.60,
+    alpha = 0.78, show.legend = FALSE
+  ) +
+  geom_text(
+    data = dados_mapa_geral,
+    aes(x = longitude, y = latitude, label = `Número de estudos`),
+    color = "white", family = "Times New Roman", fontface = "bold",
+    size = 3.2, show.legend = FALSE
+  ) +
+  scale_size_area(max_size = 20, guide = "none") +
+  coord_sf(datum = NA, expand = FALSE, clip = "off") +
+  labs(x = NULL, y = NULL) +
+  theme_void(base_family = "Times New Roman", base_size = 12) +
+  theme(
+    plot.background = element_rect(fill = "transparent", color = NA),
+    panel.background = element_rect(fill = "transparent", color = NA),
+    plot.margin = margin(8, 8, 8, 8)
+  )
+
+imprimir_figura(
+  mapa_geral,
+  "Distribuição geográfica dos 76 estudos incluídos na síntese. Os círculos indicam os países de realização; o tamanho é proporcional ao número de estudos distintos e o valor interno apresenta a frequência por país."
+)
+salvar_grafico(mapa_geral, "figura_01_distribuicao_geografica_estudos", largura = 13, altura = 6.7)
+```
+
+## Evolução temporal da produção científica
+
+```{r figura-bibliometria, results='asis', fig.width=9.5, fig.height=5.5}
+dados_bibliometria <- tibble::tibble(
+  Ano = c(2016, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026),
+  Frequência = c(1, 2, 3, 4, 8, 9, 15, 17, 14, 3)
+) %>%
+  mutate(Acumulado = cumsum(Frequência))
+
+interp <- stats::splinefun(dados_bibliometria$Ano, dados_bibliometria$Acumulado, method = "monoH.FC")
+curva_suave <- tibble::tibble(x = seq(min(dados_bibliometria$Ano), max(dados_bibliometria$Ano), length.out = 400)) %>%
+  mutate(y = interp(x))
+
+cor_linha <- "#0F5C6B"
+
+grafico_bibliometria <- ggplot() +
+  geom_col(data = dados_bibliometria, aes(x = Ano, y = Frequência), fill = "#C7C7C7", colour = NA, width = 0.52, alpha = 0.55) +
+  geom_text(data = dados_bibliometria, aes(x = Ano, y = Frequência, label = Frequência), vjust = -0.9, family = "Times New Roman", size = 3.0, colour = "#7A7A7A") +
+  geom_area(data = curva_suave, aes(x = x, y = y), fill = cor_linha, alpha = 0.08) +
+  geom_line(data = curva_suave, aes(x = x, y = y), colour = cor_linha, linewidth = 0.85, lineend = "round") +
+  geom_point(data = dados_bibliometria, aes(x = Ano, y = Acumulado), shape = 21, size = 2.6, stroke = 0.9, fill = "#FFFFFF", colour = cor_linha) +
+  geom_text(data = dados_bibliometria, aes(x = Ano, y = Acumulado, label = Acumulado), vjust = -1.25, family = "Times New Roman", size = 3.15, colour = cor_linha, fontface = "bold") +
+  scale_x_continuous(breaks = dados_bibliometria$Ano) +
+  scale_y_continuous(limits = c(0, 88), breaks = seq(0, 80, 20), expand = expansion(mult = c(0, 0.05))) +
+  labs(x = "Ano", y = "Número de artigos") +
+  theme_minimal(base_family = "Times New Roman", base_size = 12) +
+  theme(
+    axis.line.x = element_line(colour = "#D9D9D9", linewidth = 0.35),
+    axis.ticks.x = element_line(colour = "#D9D9D9", linewidth = 0.3),
+    axis.ticks.y = element_blank(),
+    axis.text = element_text(colour = "#6B6B6B", size = 9.7),
+    axis.title = element_text(colour = "#4A4A4A", size = 10.5),
+    panel.grid.major.y = element_line(colour = "#EEEEEE", linewidth = 0.4),
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor = element_blank(),
+    panel.background = element_rect(fill = "transparent", colour = NA),
+    plot.background = element_rect(fill = "transparent", colour = NA),
+    plot.margin = margin(12, 18, 8, 8)
+  )
+
+imprimir_figura(
+  grafico_bibliometria,
+  paste0(
+    "Número de artigos publicados por ano (barras cinzas, eixo compartilhado) e número acumulado de artigos ",
+    "(linha e círculos azul-petróleo) sobre bioinsumos microbianos em feijão e arroz, de 2016 a 2026, totalizando ",
+    "76 artigos; o artigo identificado para o ano de 2015 foi excluído do estudo. A linha conecta os valores ",
+    "acumulados observados a cada ano por interpolação monotônica; os números junto a cada ponto indicam o total ",
+    "acumulado naquele ano, e os números junto a cada barra indicam a frequência anual."
+  )
+)
+salvar_grafico(grafico_bibliometria, "figura_02_evolucao_producao_cientifica", largura = 9.5, altura = 5.5)
+```
+
+## Estatística descritiva
+
+```{r funcao-descritivas}
+calcular_descritivas <- function(dados_cultura, lista_escopo) {
+  purrr::imap_dfr(lista_escopo, function(classes_v, v) {
+    if (length(classes_v) == 0) return(NULL)
+    d <- dados_cultura %>%
+      filter(!is.na(.data[[v]]), Classe %in% classes_v) %>%
+      mutate(Classe = factor(Classe, levels = classes_v))
+
+    d %>%
+      group_by(Classe, .drop = FALSE) %>%
+      summarise(
+        n = dplyr::n(),
+        `Nº estudos` = numero_estudos(ID),
+        Média = mean(.data[[v]], na.rm = TRUE),
+        `Desvio-padrão` = if (dplyr::n() > 1) stats::sd(.data[[v]], na.rm = TRUE) else NA_real_,
+        Mediana = stats::median(.data[[v]], na.rm = TRUE),
+        Q1 = stats::quantile(.data[[v]], 0.25, na.rm = TRUE, names = FALSE),
+        Q3 = stats::quantile(.data[[v]], 0.75, na.rm = TRUE, names = FALSE),
+        Mínimo = min(.data[[v]], na.rm = TRUE),
+        Máximo = max(.data[[v]], na.rm = TRUE),
+        .groups = "drop"
+      ) %>%
+      filter(n > 0) %>%
+      mutate(Variável = v, .before = 1)
+  })
+}
+
+preparar_tabela_descritiva <- function(x) {
+  x %>%
+    mutate(
+      Variável = as.character(Variável), Classe = as.character(Classe),
+      across(c(Média, `Desvio-padrão`, Mediana, Q1, Q3, Mínimo, Máximo), ~ formatar_numero(.x, 2))
+    ) %>%
+    rename(`Nº obs.` = n)
+}
+
+descritivas_feijao <- calcular_descritivas(dados_feijao_bruto, var_classes_feijao_final)
+descritivas_arroz  <- calcular_descritivas(dados_arroz_bruto, var_classes_arroz_final)
+descritivas_complementares_arroz <- calcular_descritivas(
+  dados_arroz_bruto, var_classes_complementares_arroz
+)
+```
+
+```{r funcao-grafico}
+gerar_grafico_descritivo <- function(dados_cultura, variavel, classes_v) {
+  dados_grafico <- dados_cultura %>%
+    filter(!is.na(.data[[variavel]]), Classe %in% classes_v) %>%
+    mutate(Classe = factor(Classe, levels = classes_v))
+  if (nrow(dados_grafico) == 0) return(NULL)
+
+  descr <- descritivas_atual %>% filter(as.character(Variável) == variavel, n > 0) %>%
+    mutate(Classe = factor(as.character(Classe), levels = classes_v))
+
+  dados_violin <- dados_grafico %>% group_by(Classe) %>%
+    filter(dplyr::n() >= 4, dplyr::n_distinct(.data[[variavel]]) > 1) %>% ungroup()
+
+  grafico <- ggplot(dados_grafico, aes(x = Classe, y = .data[[variavel]], colour = Classe, fill = Classe))
+
+  if (nrow(dados_violin) > 0) {
+    grafico <- grafico + geom_violin(data = dados_violin, trim = TRUE, alpha = 0.20, linewidth = 0.55, colour = "#3F3F3F", show.legend = FALSE)
+  }
+
+  grafico +
+    geom_boxplot(width = 0.17, outlier.shape = NA, fill = "#FFFFFF", alpha = 0.80, linewidth = 0.50, colour = "#555555", show.legend = FALSE) +
+    geom_jitter(width = 0.12, height = 0, alpha = 0.34, size = 1.45, show.legend = FALSE) +
+    geom_point(data = descr, aes(x = Classe, y = Média), inherit.aes = FALSE, shape = 21, size = 3.4, stroke = 0.65, fill = "#9E1B1B", colour = "#7A1111") +
+    scale_colour_manual(values = paleta_classes, drop = FALSE) +
+    scale_fill_manual(values = paleta_classes, drop = FALSE) +
+    scale_x_discrete(drop = FALSE) +
+    labs(x = NULL, y = variavel) +
+    tema_academico() +
+    theme(
+      panel.grid.major.y = element_line(colour = "#B4AEA9", linewidth = 0.35, linetype = "dashed")
+    ) +
+    coord_cartesian(clip = "off")
+}
+
+gerar_legenda_boxplot <- function(variavel, cultura, classes_v, descr) {
+  paste0(
+    "Distribuição de ", variavel, " em ", cultura, ", por classe (", paste(classes_v, collapse = ", "), "). ",
+    "As caixas indicam mediana, primeiro e terceiro quartis; as hastes indicam o intervalo entre o menor e o ",
+    "maior valor observado dentro de 1,5 vez o intervalo interquartil; os pontos claros à esquerda de cada ",
+    "caixa são as observações individuais; o ponto vermelho indica a média aritmética da classe. Áreas ",
+    "sombreadas ao redor das caixas, quando presentes, representam a densidade estimada da distribuição."
+  )
+}
+```
+
+### Feijão
+
+```{r tabela-descritiva-feijao, results='asis'}
+imprimir_tabela(
+  preparar_tabela_descritiva(descritivas_feijao),
+  "Estatística descritiva das variáveis agronômicas do feijão, por classe.",
+  nota = paste0(
+    "Nº obs. = número de observações válidas; Nº estudos = número de códigos de identificação (ID) ",
+    "distintos que contribuem com observações válidas. Desvio-padrão não calculado quando Nº obs. = 1. ",
+    "Q1 e Q3 = primeiro e terceiro quartis. Unidades conforme indicado no nome de cada variável."
+  )
+)
+```
+
+```{r figuras-feijao, results="asis", fig.width=13, fig.height=7.5}
+descritivas_atual <- descritivas_feijao
+paineis_feijao <- list()
+for (variavel_atual in variaveis_feijao) {
+  classes_v <- var_classes_feijao_final[[variavel_atual]]
+  grafico <- gerar_grafico_descritivo(dados_feijao_bruto, variavel_atual, classes_v)
+  if (!is.null(grafico)) paineis_feijao[[variavel_atual]] <- grafico
+}
+
+matriz_feijao <- patchwork::wrap_plots(paineis_feijao, ncol = 3, nrow = 2) &
+  theme(plot.background = element_rect(fill = "transparent", colour = NA), panel.background = element_rect(fill = "transparent", colour = NA))
+
+legenda_feijao <- paste0(
+  "Distribuição das seis variáveis agronômicas analisadas no feijão, por classe (controle e bactéria), em ",
+  "matriz de painéis. Em cada painel, as caixas indicam mediana, primeiro e terceiro quartis; as hastes indicam ",
+  "o intervalo entre o menor e o maior valor observado dentro de 1,5 vez o intervalo interquartil; os pontos ",
+  "claros são as observações individuais; o ponto vermelho indica a média aritmética da classe; áreas ",
+  "sombreadas, quando presentes, representam a densidade estimada da distribuição."
+)
+imprimir_figura(matriz_feijao, legenda_feijao)
+salvar_grafico(matriz_feijao, paste0("figura_", sprintf("%02d", contador_figura), "_matriz_boxplot_feijao"), largura = 13, altura = 7.5)
+```
+
+### Arroz
+
+```{r tabela-descritiva-arroz, results='asis'}
+imprimir_tabela(
+  preparar_tabela_descritiva(descritivas_arroz),
+  "Estatística descritiva das variáveis agronômicas do arroz, por classe.",
+  nota = paste0(
+    "Nº obs. = número de observações válidas; Nº estudos = número de códigos de identificação (ID) ",
+    "distintos que contribuem com observações válidas. Desvio-padrão não calculado quando Nº obs. = 1. ",
+    "Q1 e Q3 = primeiro e terceiro quartis. Unidades conforme indicado no nome de cada variável."
+  )
+)
+```
+
+```{r figuras-arroz, results="asis", fig.width=13, fig.height=7.5}
+descritivas_atual <- descritivas_arroz
+paineis_arroz <- list()
+for (variavel_atual in variaveis_arroz) {
+  classes_v <- var_classes_arroz_final[[variavel_atual]]
+  grafico <- gerar_grafico_descritivo(dados_arroz_bruto, variavel_atual, classes_v)
+  if (!is.null(grafico)) paineis_arroz[[variavel_atual]] <- grafico
+}
+
+matriz_arroz <- patchwork::wrap_plots(paineis_arroz, ncol = 3, nrow = 2) &
+  theme(plot.background = element_rect(fill = "transparent", colour = NA), panel.background = element_rect(fill = "transparent", colour = NA))
+
+legenda_arroz <- paste0(
+  "Distribuição das seis variáveis agronômicas analisadas no arroz, por classe (controle, bactéria, fungo e ",
+  "fungo mais bactéria, conforme a disponibilidade de cada variável), em matriz de painéis. Em cada painel, as ",
+  "caixas indicam mediana, primeiro e terceiro quartis; as hastes indicam o intervalo entre o menor e o maior ",
+  "valor observado dentro de 1,5 vez o intervalo interquartil; os pontos claros são as observações individuais; ",
+  "o ponto vermelho indica a média aritmética da classe; áreas sombreadas, quando presentes, representam a ",
+  "densidade estimada da distribuição."
+)
+imprimir_figura(matriz_arroz, legenda_arroz)
+salvar_grafico(matriz_arroz, paste0("figura_", sprintf("%02d", contador_figura), "_matriz_boxplot_arroz"), largura = 13, altura = 7.5)
+```
+
+```{r figura-complementares-arroz, results='asis', fig.width=15, fig.height=5}
+descritivas_atual <- descritivas_complementares_arroz
+paineis_complementares_arroz <- list()
+
+for (variavel_atual in variaveis_complementares_arroz) {
+  classes_v <- var_classes_complementares_arroz[[variavel_atual]]
+  grafico <- gerar_grafico_descritivo(dados_arroz_bruto, variavel_atual, classes_v)
+  if (!is.null(grafico)) paineis_complementares_arroz[[variavel_atual]] <- grafico
+}
+
+if (length(paineis_complementares_arroz) > 0) {
+  matriz_complementares_arroz <- patchwork::wrap_plots(
+    paineis_complementares_arroz, ncol = 3, nrow = 1
+  ) & theme(
+    plot.background = element_rect(fill = "transparent", colour = NA),
+    panel.background = element_rect(fill = "transparent", colour = NA)
+  )
+
+  legenda_complementares <- paste0(
+    "Distribuição de controle de doença, carbono orgânico e redução de fertilizantes no arroz, em matriz 1 × 3. ",
+    "As caixas indicam mediana e quartis; as hastes, 1,5 vez o intervalo interquartil; os pontos claros, as ",
+    "observações individuais; e o ponto vermelho, a média aritmética da classe."
+  )
+  imprimir_figura(matriz_complementares_arroz, legenda_complementares)
+  salvar_grafico(matriz_complementares_arroz, paste0("figura_", sprintf("%02d", contador_figura),
+    "_matriz_complementares_arroz"), largura = 15, altura = 5)
+}
+```
+
+## Análise de componentes principais
+
+```{r pca-preparar, include=FALSE}
+paleta_biplot <- paleta_classes
+paleta_biplot["Bactéria"] <- "#1B6B33"
+paleta_biplot["Fungo + Bactéria"] <- "#0B4D8C"
+
+formas_biplot <- c("Controle" = 16, "Bactéria" = 16, "Fungo" = 15, "Fungo + Bactéria" = 17)
+
+tema_pca_elegante <- function() {
+  ggplot2::theme_minimal(base_family = "Times New Roman", base_size = 12) +
+    ggplot2::theme(
+      panel.grid.major = ggplot2::element_line(colour = "#EDF0F3", linewidth = 0.18),
+      panel.grid.minor = ggplot2::element_blank(),
+      panel.border = ggplot2::element_rect(colour = "#B7C0C9", fill = NA, linewidth = 0.32),
+      axis.line = ggplot2::element_blank(),
+      axis.ticks = ggplot2::element_line(colour = "#B7C0C9", linewidth = 0.22),
+      plot.title = ggplot2::element_blank(),
+      plot.subtitle = ggplot2::element_blank(),
+      axis.title = ggplot2::element_text(colour = "#263238", size = 11),
+      axis.text = ggplot2::element_text(colour = "#455A64", size = 9.5),
+      legend.position = "right",
+      legend.title = ggplot2::element_text(colour = "#17365D", face = "bold", size = 10.5),
+      legend.text = ggplot2::element_text(size = 9.5),
+      legend.key = ggplot2::element_rect(fill = "transparent", colour = NA),
+      panel.background = ggplot2::element_rect(fill = "transparent", colour = NA),
+      plot.background = ggplot2::element_rect(fill = "transparent", colour = NA),
+      legend.background = ggplot2::element_rect(fill = "transparent", colour = NA),
+      plot.margin = ggplot2::margin(10, 14, 10, 10)
+    )
+}
+
+preparar_pca <- function(
+  dados_cultura, variaveis_disponiveis, classes_pca, rotulo_cultura,
+  remover_outliers = FALSE, fator_iqr = 1.5
+) {
+  dados_cultura <- dados_cultura %>%
+    filter(as.character(Classe) %in% classes_pca) %>%
+    mutate(Classe = factor(as.character(Classe), levels = classes_pca)) %>%
+    select(ID, Classe, all_of(variaveis_disponiveis))
+
+  n_linhas <- nrow(dados_cultura)
+  diagnostico <- purrr::map_dfr(variaveis_disponiveis, function(variavel) {
+    x <- dados_cultura[[variavel]]
+    n_validos <- sum(!is.na(x))
+    variancia <- if (n_validos >= 2) var(x, na.rm = TRUE) else NA_real_
+    motivo <- dplyr::case_when(
+      n_validos == 0 ~ "Sem observações válidas",
+      n_validos < 10 ~ "Menos de 10 observações válidas",
+      is.na(variancia) ~ "Variância não calculável",
+      variancia == 0 ~ "Variância igual a zero",
+      TRUE ~ "Utilizada"
+    )
+    tibble::tibble(Variável = variavel, `Valores válidos` = n_validos, `Disponibilidade (%)` = 100 * n_validos / n_linhas, Decisão = motivo)
+  })
+
+  variaveis_pca <- diagnostico %>% filter(Decisão == "Utilizada") %>% pull(Variável)
+  resultado <- list(
+    cultura = rotulo_cultura, diagnostico = diagnostico,
+    variaveis = variaveis_pca, classes_pca = classes_pca,
+    executada = FALSE, mensagem = NULL, n_outliers = 0,
+    prop_pc12_antes = NA_real_
+  )
+  if (length(variaveis_pca) < 2 || n_linhas < 3) {
+    resultado$mensagem <- paste0("A PCA de ", rotulo_cultura, " não pôde ser realizada.")
+    return(resultado)
+  }
+
+  # PCA de referência antes da exclusão, usada apenas para quantificar se o
+  # filtro de outliers aumentou a variância acumulada em PC1 e PC2.
+  matriz_antes <- dados_cultura %>% select(all_of(variaveis_pca))
+  medianas_antes <- vapply(matriz_antes, function(x) median(x, na.rm = TRUE), numeric(1))
+  for (variavel in variaveis_pca) {
+    matriz_antes[[variavel]][is.na(matriz_antes[[variavel]])] <- medianas_antes[[variavel]]
+  }
+  variancias_antes <- vapply(matriz_antes, var, numeric(1))
+  matriz_antes <- matriz_antes %>%
+    select(all_of(names(variancias_antes)[is.finite(variancias_antes) & variancias_antes > 0]))
+  if (ncol(matriz_antes) >= 2) {
+    pca_antes <- prcomp(matriz_antes, center = TRUE, scale. = TRUE)
+    proporcoes_antes <- pca_antes$sdev^2 / sum(pca_antes$sdev^2)
+    resultado$prop_pc12_antes <- 100 * sum(proporcoes_antes[1:2])
+  }
+
+  # Uma linha é considerada outlier quando ao menos um de seus valores
+  # observados está fora dos limites de 1,5 × IQR da variável. Valores
+  # ausentes não são classificados como outliers nesta etapa.
+  if (isTRUE(remover_outliers)) {
+    indicadores_outlier <- purrr::map_dfc(variaveis_pca, function(variavel) {
+      x <- dados_cultura[[variavel]]
+      q1 <- stats::quantile(x, 0.25, na.rm = TRUE, names = FALSE, type = 7)
+      q3 <- stats::quantile(x, 0.75, na.rm = TRUE, names = FALSE, type = 7)
+      iqr <- q3 - q1
+      fora <- !is.na(x) & (x < q1 - fator_iqr * iqr | x > q3 + fator_iqr * iqr)
+      tibble::tibble(!!variavel := fora)
+    })
+    remover_linha <- apply(as.data.frame(indicadores_outlier), 1, any)
+    resultado$n_outliers <- sum(remover_linha)
+    resultado$outliers_por_classe <- dados_cultura %>%
+      mutate(.outlier_pca = remover_linha) %>%
+      filter(.outlier_pca) %>%
+      count(Classe, name = "Observações removidas")
+    resultado$outliers_por_variavel <- tibble::tibble(
+      Variável = names(indicadores_outlier),
+      `Valores extremos` = vapply(indicadores_outlier, sum, numeric(1))
+    )
+    dados_cultura <- dados_cultura[!remover_linha, , drop = FALSE]
+  }
+
+  matriz_pca <- dados_cultura %>% select(all_of(variaveis_pca))
+  medianas <- vapply(matriz_pca, function(x) median(x, na.rm = TRUE), numeric(1))
+  prop_imputado <- vapply(matriz_pca, function(x) mean(is.na(x)), numeric(1))
+  for (variavel in variaveis_pca) {
+    matriz_pca[[variavel]][is.na(matriz_pca[[variavel]])] <- medianas[[variavel]]
+  }
+
+  variancias_pos <- vapply(matriz_pca, var, numeric(1))
+  constantes <- names(variancias_pos)[is.na(variancias_pos) | variancias_pos == 0]
+  if (length(constantes) > 0) {
+    matriz_pca <- matriz_pca %>% select(-all_of(constantes))
+    variaveis_pca <- setdiff(variaveis_pca, constantes)
+    resultado$variaveis <- variaveis_pca
+  }
+  if (ncol(matriz_pca) < 2) {
+    resultado$mensagem <- paste0("A PCA de ", rotulo_cultura, " não pôde ser realizada.")
+    return(resultado)
+  }
+
+  pca <- prcomp(matriz_pca, center = TRUE, scale. = TRUE)
+  autovalores <- pca$sdev^2
+  proporcoes <- autovalores / sum(autovalores)
+  cargas <- as.data.frame(pca$rotation[, 1:2, drop = FALSE]) %>%
+    tibble::rownames_to_column("Variável") %>%
+    mutate(Sigla = unname(siglas[Variável])) %>%
+    select(Variável, Sigla, PC1, PC2)
+  escores <- as.data.frame(pca$x[, 1:2, drop = FALSE]) %>%
+    mutate(Classe = dados_cultura$Classe, ID = dados_cultura$ID)
+
+  resultado$executada <- TRUE
+  resultado$cargas <- cargas
+  resultado$escores <- escores
+  resultado$prop_pc1 <- 100 * proporcoes[1]
+  resultado$prop_pc2 <- 100 * proporcoes[2]
+  resultado$prop_pc12_depois <- 100 * sum(proporcoes[1:2])
+  resultado$ganho_pc12 <- resultado$prop_pc12_depois - resultado$prop_pc12_antes
+  resultado$n_observacoes <- nrow(matriz_pca)
+  resultado$prop_imputado_media <- 100 * mean(prop_imputado[variaveis_pca])
+  resultado
+}
+
+criar_biplot <- function(resultado, nivel_elipse = 0.68) {
+  escores <- resultado$escores %>% mutate(Classe = factor(as.character(Classe), levels = resultado$classes_pca))
+  cargas <- resultado$cargas
+
+  amplitude_x <- diff(range(escores$PC1, finite = TRUE))
+  amplitude_y <- diff(range(escores$PC2, finite = TRUE))
+  amplitude_carga_x <- max(abs(cargas$PC1), na.rm = TRUE)
+  amplitude_carga_y <- max(abs(cargas$PC2), na.rm = TRUE)
+  fatores <- c(
+    ifelse(amplitude_carga_x > 0, amplitude_x / (2 * amplitude_carga_x), NA_real_),
+    ifelse(amplitude_carga_y > 0, amplitude_y / (2 * amplitude_carga_y), NA_real_)
+  )
+  fator_setas <- 0.72 * min(fatores[is.finite(fatores) & fatores > 0])
+  if (!is.finite(fator_setas)) fator_setas <- 1
+  cargas_plot <- cargas %>% mutate(PC1_plot = PC1 * fator_setas, PC2_plot = PC2 * fator_setas)
+
+  diag_elipse <- escores %>% group_by(Classe) %>%
+    summarise(n_distintos = n_distinct(paste(round(PC1, 8), round(PC2, 8))), sd1 = sd(PC1, na.rm = TRUE), sd2 = sd(PC2, na.rm = TRUE), cx = mean(PC1, na.rm = TRUE), cy = mean(PC2, na.rm = TRUE), .groups = "drop")
+  classes_ok <- diag_elipse %>% filter(n_distintos >= 3, sd1 > 1e-8, sd2 > 1e-8) %>% pull(Classe)
+  classes_bad <- diag_elipse %>% filter(!(Classe %in% classes_ok)) %>% filter(!is.na(cx), !is.na(cy))
+  escores_ok <- filter(escores, Classe %in% classes_ok)
+  raio_fallback <- 0.05 * max(amplitude_x, amplitude_y, na.rm = TRUE)
+  if (!is.finite(raio_fallback) || raio_fallback <= 0) raio_fallback <- 0.25
+  circulo <- function(cx, cy, r, n = 100) { th <- seq(0, 2 * pi, length.out = n); data.frame(PC1 = cx + r * cos(th), PC2 = cy + r * sin(th)) }
+  dados_fallback <- if (nrow(classes_bad) == 0) data.frame() else do.call(rbind, lapply(seq_len(nrow(classes_bad)), function(i) { tmp <- classes_bad[i, ]; cdf <- circulo(tmp$cx, tmp$cy, raio_fallback); cdf$Classe <- tmp$Classe; cdf }))
+
+  grafico <- ggplot(escores, aes(x = PC1, y = PC2)) +
+    geom_hline(yintercept = 0, colour = "#C3CAD1", linewidth = 0.22) +
+    geom_vline(xintercept = 0, colour = "#C3CAD1", linewidth = 0.22)
+  if (nrow(escores_ok) > 0) {
+    grafico <- grafico + stat_ellipse(data = escores_ok, aes(colour = Classe, fill = Classe, group = Classe), geom = "polygon", type = "norm", level = nivel_elipse, segments = 241, linewidth = 0.42, alpha = 0.09, show.legend = FALSE)
+  }
+  if (nrow(dados_fallback) > 0) {
+    grafico <- grafico + geom_path(data = dados_fallback, aes(x = PC1, y = PC2, colour = Classe, group = Classe), inherit.aes = FALSE, linewidth = 0.45, alpha = 0.55, linetype = "dashed", show.legend = FALSE)
+  }
+
+  grafico +
+    geom_point(aes(colour = Classe, shape = Classe), alpha = 0.88, size = 2.9, stroke = 0.55) +
+    geom_segment(data = cargas_plot, aes(x = 0, y = 0, xend = PC1_plot, yend = PC2_plot), inherit.aes = FALSE, arrow = grid::arrow(length = grid::unit(0.14, "cm"), type = "closed"), colour = "#8C2A38", linewidth = 0.42, alpha = 0.85, lineend = "round") +
+    ggrepel::geom_text_repel(data = cargas_plot, aes(x = PC1_plot, y = PC2_plot, label = Sigla), inherit.aes = FALSE, colour = "#7A1F2B", family = "Times New Roman", fontface = "plain", size = 3.5, box.padding = 0.4, max.overlaps = Inf, segment.colour = "#8C2A38", segment.size = 0.18, segment.alpha = 0.5, force = 3, max.time = 2, max.iter = 20000, seed = 123) +
+    scale_colour_manual(values = paleta_biplot, drop = FALSE) +
+    scale_fill_manual(values = paleta_biplot, drop = FALSE, guide = "none") +
+    scale_shape_manual(values = formas_biplot, drop = FALSE) +
+    guides(colour = guide_legend(override.aes = list(size = 3.4, alpha = 1)), shape = guide_legend(override.aes = list(size = 3.4, alpha = 1))) +
+    labs(title = NULL, subtitle = NULL, x = paste0("PC1 (", formatar_numero(resultado$prop_pc1, 1), "%)"), y = paste0("PC2 (", formatar_numero(resultado$prop_pc2, 1), "%)"), colour = "Classe", shape = "Classe") +
+    coord_equal() +
+    tema_pca_elegante()
+}
+
+resultado_pca_feijao <- preparar_pca(dados_feijao_bruto, variaveis_feijao, classes_feijao, "Feijão")
+resultado_pca_arroz  <- preparar_pca(
+  dados_arroz_bruto, variaveis_pca_arroz_selecionadas, classes_pca_arroz, "Arroz",
+  remover_outliers = TRUE, fator_iqr = 1.5
+)
+```
+
+```{r figura-pca-matriz, results='asis', fig.width=13, fig.height=6.5}
+paineis_pca <- list()
+if (isTRUE(resultado_pca_feijao$executada)) paineis_pca[["Feijão"]] <- criar_biplot(resultado_pca_feijao)
+if (isTRUE(resultado_pca_arroz$executada))  paineis_pca[["Arroz"]]  <- criar_biplot(resultado_pca_arroz)
+
+if (length(paineis_pca) > 0) {
+  matriz_pca <- patchwork::wrap_plots(paineis_pca, ncol = 2, nrow = 1) &
+    theme(plot.background = element_rect(fill = "transparent", colour = NA), panel.background = element_rect(fill = "transparent", colour = NA))
+
+  legenda_pca <- paste0(
+    "Biplot da análise de componentes principais para feijão (painel à esquerda) e arroz (painel à direita), ",
+    "após padronização das variáveis e imputação pela mediana dos valores ausentes. Na PCA do arroz, ",
+    "observações com ao menos um valor fora dos limites de 1,5 × IQR foram removidas antes da imputação. Pontos representam ",
+    "observações individuais, coloridos e com forma conforme a classe (círculo cinza para controle, círculo ",
+    "azul-esverdeado para bactéria e quadrado roxo para fungo, este último presente somente no painel do feijão). ",
+    "A PCA do arroz inclui apenas as classes controle e bactéria; as classes fungo e fungo mais bactéria ",
+    "permanecem nas demais análises em que possuem dados válidos. ",
+    "Elipses sombreadas delimitam a dispersão normal de 68% de cada classe com três ou mais observações ",
+    "distintas; círculos tracejados substituem a elipse para classes com poucos pontos ou variância nula, ",
+    "centrados na média do grupo. Setas vermelhas indicam a carga de cada variável sobre os dois primeiros ",
+    "componentes, identificadas pelas siglas GER (germinação), AP (altura de planta), CR (comprimento de raiz), ",
+    "MFPA e MSPA (massa fresca e seca da parte aérea), MFR e MSR (massa fresca e seca de raízes), NP (número de ",
+    "panículas), NV (número de vagens), PERF (número de perfilhos), PROD (produtividade), CD (controle de doença), ",
+    "RF (redução de fertilizantes); o comprimento e a direção de cada seta indicam a ",
+    "magnitude e o sentido da associação da variável correspondente com os dois primeiros componentes."
+  )
+  imprimir_figura(matriz_pca, legenda_pca)
+  salvar_grafico(matriz_pca, paste0("figura_", sprintf("%02d", contador_figura), "_matriz_pca"), largura = 13, altura = 6.5)
+}
+```
+
+## Razão de resposta em relação ao controle
+
+```{r rr-preparar, include=FALSE}
+paleta_forest <- paleta_classes
+paleta_forest["Bactéria"] <- "#0B4D8C"
+formas_forest <- c("Controle" = 16, "Bactéria" = 16, "Fungo" = 16, "Fungo + Bactéria" = 16)
+
+calcular_razao_resposta <- function(descritivas, variaveis_ordem) {
+  base_controle <- descritivas %>% filter(as.character(Classe) == "Controle") %>%
+    transmute(Variável = as.character(Variável), MedianaC = Mediana, nC = n)
+  comparadores <- descritivas %>% filter(as.character(Classe) != "Controle") %>%
+    transmute(Variável = as.character(Variável), Classe = as.character(Classe),
+              MedianaT = Mediana, Q1T = Q1, Q3T = Q3, nT = n)
+  comparadores %>%
+    inner_join(base_controle, by = "Variável") %>%
+    filter(nT >= 3, nC >= 3, !is.na(MedianaT), !is.na(MedianaC), !is.na(Q1T), !is.na(Q3T), MedianaC > 0) %>%
+    mutate(
+      `Variação (%)` = (MedianaT - MedianaC) / MedianaC * 100,
+      `Q1 (%)` = (Q1T - MedianaC) / MedianaC * 100,
+      `Q3 (%)` = (Q3T - MedianaC) / MedianaC * 100,
+      Variável = factor(Variável, levels = variaveis_ordem)
+    ) %>%
+    arrange(Variável, Classe)
+}
+
+criar_forest_plot <- function(dados_rr) {
+  ordem_eixo <- rev(levels(droplevels(dados_rr$Variável)))
+  dados_rr <- dados_rr %>%
+    mutate(RotuloEixo = factor(as.character(Variável), levels = ordem_eixo), Classe = factor(Classe, levels = intersect(names(paleta_classes), unique(Classe))))
+  ggplot(dados_rr, aes(x = `Variação (%)`, y = RotuloEixo, colour = Classe, shape = Classe)) +
+    geom_vline(xintercept = 0, colour = "#8A8F98", linewidth = 0.45, linetype = "dashed") +
+    geom_errorbarh(aes(xmin = `Q1 (%)`, xmax = `Q3 (%)`), height = 0.20, linewidth = 0.7, position = position_dodge(width = 0.55)) +
+    geom_point(size = 3.2, stroke = 0.8, position = position_dodge(width = 0.55)) +
+    scale_colour_manual(values = paleta_forest, drop = FALSE) +
+    scale_shape_manual(values = formas_forest, drop = FALSE) +
+    labs(title = NULL, subtitle = NULL, x = "Variação em relação ao controle (%)", y = NULL, colour = "Classe", shape = "Classe") +
+    tema_pca_elegante() +
+    theme(panel.grid.major.y = element_blank(), legend.position = "bottom", axis.text.y = element_text(hjust = 1))
+}
+
+razao_resposta_feijao <- calcular_razao_resposta(descritivas_feijao, variaveis_feijao)
+descritivas_forest_arroz <- bind_rows(descritivas_arroz, descritivas_complementares_arroz)
+razao_resposta_arroz  <- calcular_razao_resposta(descritivas_forest_arroz, variaveis_pca_arroz)
+```
+
+```{r figura-rr-matriz, results='asis', fig.width=13, fig.height=6}
+paineis_rr <- list()
+if (nrow(razao_resposta_feijao) > 0) paineis_rr[["Feijão"]] <- criar_forest_plot(razao_resposta_feijao)
+if (nrow(razao_resposta_arroz) > 0)  paineis_rr[["Arroz"]]  <- criar_forest_plot(razao_resposta_arroz)
+
+if (length(paineis_rr) > 0) {
+  matriz_rr <- patchwork::wrap_plots(paineis_rr, ncol = 2, nrow = 1) &
+    theme(plot.background = element_rect(fill = "transparent", colour = NA), panel.background = element_rect(fill = "transparent", colour = NA))
+
+  legenda_rr <- paste0(
+    "Variação percentual da mediana de cada classe de bioinsumo em relação à mediana do controle, para feijão ",
+    "(painel à esquerda) e arroz (painel à direita), para cada variável no eixo vertical. Pontos indicam a ",
+    "distância percentual entre a mediana da classe e a mediana do controle; barras horizontais indicam o ",
+    "primeiro e o terceiro quartil (Q1 e Q3) da própria classe, também expressos em relação à mediana do ",
+    "controle, e representam a dispersão interna da classe, não um intervalo de confiança. A linha tracejada ",
+    "vertical indica ausência de variação em relação ao controle. Cores identificam a classe comparada ",
+    "(azul-escuro para bactéria, roxo para fungo, verde para fungo mais bactéria). A síntese é descritiva, sem ",
+    "erro-padrão ou qualquer componente inferencial."
+  )
+  imprimir_figura(matriz_rr, legenda_rr)
+  salvar_grafico(matriz_rr, paste0("figura_", sprintf("%02d", contador_figura), "_matriz_razao_resposta"), largura = 13, altura = 6)
+}
+```
+
+# Base de dados e código reprodutível
+
+A seguir, apresentam-se as seis primeiras linhas da base de dados tratada utilizada nas análises.
+
+```{r head-base-dados, results='asis'}
+base_head <- utils::head(dados, 6)
+
+if (knitr::is_html_output()) {
+  cat('<div class="base-preview">')
+  print(
+    knitr::kable(
+      base_head,
+      format = "html",
+      caption = "Prévia da base de dados tratada (seis primeiras linhas).",
+      escape = TRUE
+    ) %>%
+      kableExtra::kable_styling(
+        bootstrap_options = c("condensed", "responsive"),
+        full_width = TRUE,
+        font_size = 8
+      )
+  )
+  cat('</div>')
+} else {
+  print(knitr::kable(base_head, caption = "Prévia da base de dados tratada (seis primeiras linhas)."))
+}
+```
+
+<div class="download-code-wrap">
+<a class="download-code-btn" href="site_report.Rmd" target="_blank" rel="noopener">Acessar código R</a>
+</div>
+
+# Referências
+
+Pedersen, T. L. *patchwork*: the composer of plots. R package. Disponível
+em: https://CRAN.R-project.org/package=patchwork.
+
+R Core Team. *R*: a language and environment for statistical computing.
+Vienna: R Foundation for Statistical Computing. Disponível em:
+https://www.R-project.org/.
+
+Wickham, H. *ggplot2*: elegant graphics for data analysis. New York:
+Springer-Verlag, 2016.
+
+Wickham, H.; François, R.; Henry, L.; Müller, K.; Vaughan, D. *dplyr*: a
+grammar of data manipulation. R package. Disponível em:
+https://CRAN.R-project.org/package=dplyr.
+
+Wickham, H.; Vaughan, D.; Girlich, M. *tidyr*: tidy messy data. R package.
+Disponível em: https://CRAN.R-project.org/package=tidyr.
+
+Xie, Y. *knitr*: a general-purpose package for dynamic report generation in
+R. R package. Disponível em: https://CRAN.R-project.org/package=knitr.
